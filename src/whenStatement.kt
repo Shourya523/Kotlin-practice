@@ -21,5 +21,7 @@ fun main()
         in 10..20-> e+f
         else->e*f
     }
+    //when we assign the value of when to a variable else statement
+    // is a must to make when exhaustive
     println(g)
 }
