@@ -14,5 +14,12 @@ fun main()
         }
         else-> println("wrong operation specified")
     }
-
+    var e=11
+    var f=15
+    var g=when (e){
+        9->e-f
+        in 10..20-> e+f
+        else->e*f
+    }
+    println(g)
 }
